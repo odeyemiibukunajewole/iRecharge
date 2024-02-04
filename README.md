@@ -30,14 +30,18 @@
 What kind of problems or disadvantages may occur in the handling/maintenance of
 this list (imagine, that a real-world list like this would contain thousands of entries)?
 
-1.The first problem is that data is  duplicated for instance  the provider name and currency are repeated for each row, which is inefficient.
+1.The first problem is that data is  duplicated for instance  the provider name and currency
+ are repeated for each row, which is inefficient.
 
-2 Another problem with this table is that it is very difficult to query with all the data in one table.
+2 Another problem with this table is that it is very difficult to query with all the data in 
+one table.
 
-3.It would be hard to efficiently do agregate query query  like total price per article or provider because the data is only in one single table.
+3.It would be hard to efficiently do agregate query query  like total price per article or
+ provider because the data is only in one single table.
 
-4.Another problem is that this table will be harder to maintain such as making  changes like adding/removing providers or articles would be difficult
-in this format and with well over thousand of entries the table will become very slow.
+4.Another problem is that this table will be harder to maintain such as making  changes 
+like adding/removing providers or articles would be difficult in this format and with 
+well over thousand of entries the table will become very slow.
 
 
 ```
@@ -49,7 +53,7 @@ A better approach is to model the table into entities and relationship as shown 
 
 ```
 
-<img src="https://asset.cloudinary.com/drpdniy0j/9f4012f41b1d640b125887962dc941df" alt="" />
+<img src="https://res.cloudinary.com/drpdniy0j/image/upload/v1701948851/Axios/Image/IBK2023424/iRecharge_mjhnke.svg" alt="" />
 
 # Question 3
 
@@ -60,7 +64,8 @@ Explain why your data model is better than the original list.
 
 2. The design provide us with flexibility to query efficiently by article, provider, currency etc
 
-3. With the design , the table becomes modular which mean adding/changing articles, providers, etc. is easy by updating that one table alone.
+3. With the design , the table becomes modular which mean adding/changing articles, providers, etc.
+is easy by updating that one table alone.
 
 4. Additional info can be added to entities without affecting other tables and records
 

@@ -52,8 +52,8 @@ well over thousand of entries the table will become very slow.
 A better approach is to model the table into entities and relationship as shown below
 
 ```
+<a href="" target="_blank"><img src="https://res.cloudinary.com/drpdniy0j/image/upload/v1701948851/Axios/Image/IBK2023424/iRecharge_mjhnke.svg" alt="" /></a>
 
-<img src="https://res.cloudinary.com/drpdniy0j/image/upload/v1701948851/Axios/Image/IBK2023424/iRecharge_mjhnke.svg" alt="" />
 
 # Question 3
 

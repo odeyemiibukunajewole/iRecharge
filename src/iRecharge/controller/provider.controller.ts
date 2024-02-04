@@ -6,7 +6,6 @@ import {
   Param,
   Post,
   Put,
-  Query,
 } from '@nestjs/common';
 
 import { ProviderService } from '../service/provider.service';
